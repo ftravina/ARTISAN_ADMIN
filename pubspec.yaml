@@ -1,0 +1,31 @@
+name: artisan_admin
+description: Artisan Admin Panel
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.1.10        # ← moved out, now at correct indent level
+
+  cupertino_icons: ^1.0.2
+  supabase_flutter: ^2.5.6
+  provider: ^6.0.0
+  image_picker: ^1.0.0
+  cached_network_image: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
